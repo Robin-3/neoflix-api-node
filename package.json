@@ -7,7 +7,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "nodemon src",
-    "test": "node node_modules/jest/bin/jest.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "lint": "eslint {src,example,test} --fix"
   },
   "keywords": [],
